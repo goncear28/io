@@ -1,0 +1,80 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Fundal canvas */
+canvas#backgroundCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  background: rgba(0,0,0,0.4);
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header select {
+  padding: 5px 10px;
+  font-size: 1em;
+}
+
+/* Sections */
+section {
+  max-width: 600px;
+  margin: 50px auto;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+section h2 {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff79c6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #ff4fc1;
+}
+
+/* Output divs */
+#outputText, #nicknameOutput {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 8px;
+  min-height: 40px;
+}
